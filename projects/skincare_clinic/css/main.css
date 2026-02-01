@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+/* article Area */
+article {
+  /* height: 100vh; */
+  padding-top: 3rem;
+  text-align: center;
+  /* outline: 1px dotted red; */
+}
+article h2 {
+  padding: 2rem 0;
+  font-size: 2rem;
+  font-weight: normal;
+  /* outline: 1px dotted red; */
+}
+article p {
+  font-size: 1.1rem;
+  color: #444;
+  /* outline: 1px dotted red; */
+}
+article .skincare_padding {
+  padding: 0 2rem;
+  line-height: 2rem;
+}
+article .skincare_padding p {
+  min-width: 400px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+article .skincare_padding img {
+  max-width: 400px;
+}
+article a.main_btn {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 15px 40px;
+  background-color: #566e39;
+  color: #fff;
+  border-radius: 5px;
+  transition: .2s;
+  /* border: 2px solid #566e39; */
+}
+article a.main_btn:hover {
+  color: #566e39;
+  background-color: #c2d677;
+  /* outline: 1px solid darkblue; */
+}
+/* content */
+.content {
+  /* height: 100%; */
+  padding: 0 2rem;
+}
+.content .c_top {
+  display: flex;
+}
+.content .c_top .c_date {
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  color: #fff;
+  background: darkblue;
+  border-radius: 50%;
+  outline: 1px dotted red;
+}
+.content .c_top .c_date span {
+  font-size: 1.1rem;
+  line-height: 2.4rem;
+  /* outline: 1px dotted red; */
+}
+.content .c_top .c_date span:nth-child(1)::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 40px;
+  height: 1px;
+  /* margin: 5px 10px; */
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+}
+.content .c_top .c_title {
+  /* flex: content; */
+  /* align-items: center; */
+  padding-left: 1rem;
+  outline: 1px dotted red;
+}
+.content .c_body {
+  padding-top: 2rem;
+}
+.content .c_body .img {
+  width: 100%;
+  height: 45vh;
+  background-image: url(../images/acne_pc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.content .c_body p {
+  padding-top: 1rem;
+}
+
+/* mobile */
+@media (max-width:599px) {
+}
+/* tablet */
+@media (min-width:600px) and (max-width:799px) {
+}
+/* desktop */
+@media (min-width:800px) {
+}

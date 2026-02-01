@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Crystal Kim">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김수정 포트폴리오</title>
+    <link href="./css/jquery.bxslider.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/jquery.bxslider.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <div class="modal">
+    <div class="popup">
+        <div class="pop_close"><i class="fa-solid fa-xmark"></i></div>
+        <img src="" alt="모달 이미지">
+    </div>
+    </div>
+    <header>
+        <div class="inner header_inner">
+            <h1 class="logo"><a href="./index.html"><img src="./images/logo.png" alt="로고"></a></h1>
+            <nav>
+                <ul class="main_menu">
+                    <li><a href="#uiux">UI/UX</a>
+                        <ul class="sub_menu">
+                            <li><a href="#aquarium">대전 아쿠아리움 사이트</a></li>
+                            <li><a href="#skincare">스킨케어클리닉 사이트</a></li>
+                            <li><a href="#hgdaz">하겐다즈 모바일 앱</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#graphic">GRAPHIC</a>
+                        <ul class="sub_menu">
+                            <li><a href="#product_page">상세페이지</a></li>
+                            <li><a href="#event_page">이벤트페이지</a></li>
+                            <li><a href="#cardnews">카드뉴스</a></li>
+                            <li><a href="#web_banner">웹배너</a></li>
+                            <li><a href="#webzine">웹진</a></li>
+                            <li><a href="#newsletter">뉴스레터</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#video">VIDEO</a>
+                        <ul class="sub_menu">
+                            <li><a href="#video_travel">가족여행</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu_profile"><a class="openPop" data-img="./images/profile_paper.jpg">PROFILE</a></li>
+                    <li class="menu_contact"><a href="#contact">CONTACT</a></li>
+                </ul>
+                <div class="sub_menu_bg"></div>
+            </nav>
+            <ul class="profile_contact">
+                <li><a class="openPop" data-img="./images/profile_paper.jpg">Profile</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="main_slide">
+        <ul class="bxslider">
+            <li><img src="./images/main_img1.jpg" alt=""></li>
+            <li><img src="./images/main_img2.jpg" alt=""></li>
+        </ul>
+    </section>
+    <section id="uiux">
+        <div class="inner">
+            <div class="wrap">
+                <h2>UI/UX</h2>
+                <ol>
+                    <li>1. 대전 아쿠아리움 사이트 리뉴얼</li>
+                    <li>2. 스킨 케어 클리닉 사이트 제작</li>
+                    <li>3. 하겐다즈 모바일 앱</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    <section id="aquarium">
+        <div class="inner">
+            <div class="wrap uiux_wrap">
+                    <img class="aquarium_img" src="./images/aquarium_mockup.png" alt="">
+                    <div class="uiux_con">
+                        <div class="web_mobile">WEB</div>
+                        <h3>대전 아쿠아리움 사이트 리뉴얼</h3>
+                        <ul class="description">
+                            <li><span>제작기간</span> 2025.11. ~ 2025.12. (2개월)</li>
+                            <li><span>제작내용</span> 기존 사이트의 복잡한 정보와 노후된 UI를 개선한 리뉴얼 사이트</li>
+                            <li><span>프로그램</span>
+                                <img src="./images/figma.png" alt="figma" title="figma"> 
+                                <img src="./images/photoshop.png" alt="photoshop" title="photoshop"> 
+                                <img src="./images/html.png" alt="html"  title="html"> 
+                                <img src="./images/css.png" alt="css"  title="css">
+                            </li>
+                        </ul>
+                        <div class="btn_wrap">
+                            <a class="btn" href="./projects/aquarium/index.html" target="_blank">웹사이트 보기 <i class="fa-solid fa-arrow-right"></i></a>
+                            <a class="btn openPop openPop_aquarium" data-img="./images/aquarium_paper.jpg">구현 내용 보기 <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section id="skincare">
+        <div class="inner">
+            <div class="wrap uiux_wrap">
+                    <img class="skincare_img skincare_top" src="./images/skincareclinic_mockup.png" alt="">
+                    <div class="uiux_con">
+                        <div class="web_mobile">WEB</div>
+                        <h3>스킨 케어 클리닉 사이트 제작</h3>
+                        <ul class="description">
+                            <li><span>제작기간</span> 2026.01. ~ 2026.02 (2주일)</li>
+                            <li><span>제작내용</span> 미니멀한 UI와 여백중심의 레이아웃을 적용한 피부클리닉 사이트</li>
+                            <li><span>프로그램</span>
+                                <img src="./images/photoshop.png" alt="photoshop">
+                                <img src="./images/html.png" alt="html" title="html"> 
+                                <img src="./images/css.png" alt="css" title="css">
+                                <img src="./images/gemini.png" alt="gemini" title="gemini"> (이미지 생성-나노바나나)
+                            </li>
+                        </ul>
+                        <div class="btn_wrap">
+                            <a class="btn" href="./projects/skincare_clinic/index.html" target="_blank">웹사이트 보기 <i class="fa-solid fa-arrow-right"></i></a>
+                            <a class="btn openPop openPop_skincare" data-img="./images/skincare_paper.jpg">구현 내용 보기 <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <img class="skincare_img skincare_bottom" src="./images/skincareclinic_mockup.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="hgdaz">
+        <div class="inner">
+            <div class="wrap uiux_wrap">
+                    <img class="hgdazs_img" src="./images/hgdazs_mockup.png" alt="">
+                    <div class="uiux_con">
+                        <div class="web_mobile">MOBILE</div>
+                        <h3>하겐다즈 모바일 앱</h3>
+                        <ul class="description">
+                            <li><span>제작기간</span> 2025.12. ~ 2026.01. (1주일)</li>
+                            <li><span>제작내용</span>직관적인 UI로 설계한 모바일 앱 디자인</li>
+                            <li><span>프로그램</span>
+                                <img src="./images/figma.png" alt="figma" title="figma"> 
+                                <img src="./images/photoshop.png" alt="photoshop" title="photoshop">
+                            </li>
+                        </ul>
+                        <div class="btn_wrap">
+                            <a class="btn openPop openPop_hgdazs2" data-img="./images/hgdazs_paper.jpg">구현 내용 보기 <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section id="graphic">
+        <div class="inner">
+            <div class="wrap">
+                <h2>GRAPHIC</h2>
+                <ol>
+                    <li>1. 상세페이지 (김천 자두)</li>
+                    <li>2. 이벤트페이지 (현대백화점 크리스마스 이벤트)</li>
+                    <li>3. 카드뉴스 (한국건강증진개발원/영등포구 영영페어)</li>
+                    <li>4. 카드뉴스 (한국건강증진개발원/영등포구 영영페어)</li>
+                    <li>5. 웹배너 (4월의 신제품&이벤트)</li>
+                    <li>6. 카드뉴스 (한국건강증진개발원 / 영등포구 영영페어)</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    <section id="product_page">
+        <div class="inner">
+            <div class="wrap graphic_wrap">
+                <h3><span>01</span>김천 자두 상세페이지</h3>
+                <div class="cont product_page_cont">
+                    <img class="mockup" src="./images/product_page_mockup.png" alt="">
+                    <div class="text">
+                        <ul class="description">
+                            <li><span>제작기간</span> 2026.01. ~ 2026.01. (1주일)</li>
+                            <li><span>제작내용</span> 경상북도 김천시 특산물 자두 판매 및 홍보 상세페이지</li>
+                            <li><span>프로그램</span>
+                                <img src="./images/photoshop.png" alt="photoshop" title="photoshop">
+                                <img src="./images/gemini.png" alt="gemini" title="gemini"> (이미지 생성 - 나노바나나)
+                            </li>
+                        </ul>
+                        <a class="btn openPop openPop_product" data-img="./images/product_paper.jpg">자세히보기 <i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="event_page">
+        <div class="inner">
+            <div class="wrap graphic_wrap">
+                <h3><span>02</span>현대백화점 크리스마스 이벤트 페이지</h3>
+                <div class="cont event_page_cont">
+                    <img class="mockup" src="./images/event_page_mockup.png" alt="">
+                    <div class="text">
+                        <ul class="description">
+                            <li><span>제작기간</span> 2025.10. ~ 2025.11. (1주일)</li>
+                            <li><span>제작내용</span> 현대백화점에서 크리스마스를 맞이하여 진행하는 이벤트</li>
+                            <li><span>프로그램</span>
+                                <img src="./images/photoshop.png" alt="photoshop" title="photoshop">
+                            </li>
+                        </ul>
+                        <a class="btn openPop openPop_event" data-img="./images/event_paper.jpg">자세히보기 <i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="cardnews">
+        <div class="inner">
+            <div class="wrap graphic_wrap">
+                <h3><span>03-1</span>카드뉴스 (한국건강증진개발원)</h3>
+                <div class="cont cardnews_cont">
+                    <img class="mockup" src="./images/cardnews_health.png" alt="">
+                    <div class="text">
+                        <ul class="description">
+                            <li><span>제작기간</span> 2026.01. ~ 2026.01. (1주일)</li>
+                            <li><span>제작내용</span> 한국건강증진개발원에서 진행하는 국민참여 이벤트 홍보 카드뉴스</li>
+                            <li><span>프로그램</span>
+                                <img src="./images/figma.png" alt="figma" title="figma">
+                                <img src="./images/photoshop.png" alt="photoshop" title="photoshop">
+                            </li>
+                        </ul>
+                        <a class="btn openPop openPop_cardnews1" data-img="./images/cardnews_health_paper.jpg">자세히보기 <i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="cardnews_2">
+        <div class="inner">
+            <div class="wrap graphic_wrap">
+                <h3><span>03-2</span>카드뉴스 (영등포구 영영페어)</h3>
+                <div class="cont cardnews_cont">
+                    <img class="mockup" src="./images/cardnews_fair.png" alt="">
+                    <div class="text">
+                        <ul class="description">
+                            <li><span>제작기간</span> 2019.10. ~ 2019.10. (1주일)</li>
+                            <li><span>제작내용</span> 영등포구에서 진행한 “영영페어” 박람회를 홍보하는 카드뉴스</li>
+                            <li><span>프로그램</span>
+                                <img src="./images/photoshop.png" alt="photoshop" title="photoshop">
+                            </li>
+                        </ul>
+                        <a class="btn openPop openPop_cardnews2" data-img="./images/cardnews_faire_paper.jpg">자세히보기 <i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="web_banner">
+        <div class="inner">
+            <div class="wrap graphic_wrap">
+                <h3><span>04</span>웹 배너 (4월의 신제품 & 이벤트)</h3>
+                <div class="cont web_banner_cont">
+                    <img class="mockup" src="./images/web_banner_mockup.png" alt="">
+                    <div class="text">
+                        <ul class="description">
+                            <li><span>제작기간</span> 2025.09. ~ 2025.09. (1주일)</li>
+                            <li><span>제작내용</span> 4월 봄 시즌 무드에 맞는 파스텔 톤의 프로모션 웹배너</li>
+                            <li><span>프로그램</span>
+                                <img src="./images/illustration.png" alt="illustration" title="illustration">
+                            </li>
+                        </ul>
+                        <a class="btn openPop openPop_webbanner" data-img="./images/web_banner_paper.jpg">자세히보기 <i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="webzine">
+        <div class="inner">
+            <div class="wrap graphic_wrap">
+                <h3><span>05</span>한국도로공사 웹진</h3>
+                <div class="cont webzine_cont">
+                    <img class="mockup" src="./images/webzine_mockup.png" alt="">
+                    <div class="text">
+                        <ul class="description">
+                            <li><span>제작기간</span> 2014.05. ~ 2015.04. (1년)</li>
+                            <li><span>제작내용</span> 한국도로공사로부터 외주를 받아 진행한 장기 프로젝트 웹진</li>
+                            <li><span>프로그램</span>
+                                <img src="./images/photoshop.png" alt="photoshop" title="photoshop">
+                                <img src="./images/illustration.png" alt="illustration" title="illustration">
+                            </li>
+                        </ul>
+                        <a class="btn openPop openPop_webzine" data-img="./images/webzine_paper.jpg">자세히보기 <i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="newsletter">
+        <div class="inner">
+            <div class="wrap graphic_wrap">
+                <h3><span>06</span>한국HRD교육센터 뉴스레터</h3>
+                <div class="cont newsletter_cont">
+                    <img class="mockup" src="./images/newsletter.png" alt="">
+                    <div class="text">
+                        <ul class="description">
+                            <li><span>제작기간</span> 2011.01. ~ 2012.12. (2년)</li>
+                            <li><span>제작내용</span>한국HRD교육센터 정기 뉴스레터와 비정기 문화 행사 홍보 디자인</li>
+                            <li><span>프로그램</span>
+                                <img src="./images/photoshop.png" alt="photoshop" title="photoshop">
+                                <img src="./images/illustration.png" alt="illustration" title="illustration">
+                            </li>
+                        </ul>
+                        <a class="btn openPop openPop_newsletter" data-img="./images/newsletter_paper.jpg">자세히보기 <i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="video">
+        <div class="inner">
+            <div class="wrap">
+                <h2>VIDEO</h2>
+                <ol>
+                    <li>1. 가족여행</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    <section id="video_travel">
+        <div class="inner">
+            <div class="wrap graphic_wrap">
+                <h3><span>01</span>가족 여행</h3>
+                <div class="cont video_cont">
+                    <img class="mockup" src="./images/video_mockup.png" alt="">
+                    <div class="text">
+                        <ul class="description">
+                            <li><span>제작기간</span> 2025.11. ~ 2025.11. (1주일)</li>
+                            <li><span>제작내용</span> 아이의 시선으로 바라본 여행의 설렘과 행복을 담은 브이로그(Vlog) 영상
+                            </li>
+                            <li><span>프로그램</span>
+                                <img src="./images/premiere.png" alt="premiere pro" title="premiere pro">
+                                <img src="./images/after_effects.png" alt="after effects" title="after effects">
+                                <img src="./images/photoshop.png" alt="photoshop" title="photoshop">
+                            </li>
+                        </ul>
+                        <a class="btn" href="./video.html" target="_blank">영상보기 <i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="inner">
+            <div class="wrap contact_wrap">
+                <h2>CONTACT</h2>
+                <p>
+                    기본에 충실하며,<br>
+                    사용자가 정보를 쉽게 얻을 수 있는<br>
+                    배려 깊은 디자인을 지향합니다.<br>
+                    <br>
+                    사용자에게 편안함을,<br>
+                    클라이언트에게는 확신을 주는<br>
+                    디자이너가 되겠습니다.<br>
+                    <br>
+                    감사합니다.
+                    <br><br>
+                </p>
+                <div class="email_portpolio">
+                    <div class="email_send">
+                        <h3>E-mail</h3>
+                        <p>crystal.kim1202@gmail.com<br>
+                        으로 이메일 보내기</p>
+                        <a class="contact_btn email_send" href="mailto:crystal.kim1202@gmail.com"><i class="fa-regular fa-envelope fa-lg"></i> 이메일 보내기 </a>
+                    </div>
+                    <div class="portfolio_pdf">
+                        <h3>Portfolio</h3>
+                        <p>포트폴리오 (PDF파일)<br>다운로드 받기</p>
+                        <a class="contact_btn" href="./files/crystalkim_portfolio.pdf" download="김수정_포트폴리오.pdf"><i class="fa-solid fa-download"></i> 다운로드 받기 </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="inner">
+            <div class="wrap footer_wrap">
+                <h4></h4>
+                <address>
+                    Designed & Developed by Kim Soojung<br>
+                    Web / UI·UX Designer<br>
+                    Gimcheon, South Korea
+                </address>
+                <small>© 2026 Kim Soojung. All rights reserved.</small>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
