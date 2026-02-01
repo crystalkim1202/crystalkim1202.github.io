@@ -34,7 +34,7 @@ a {text-decoration: none; color: inherit;}
 
 /* 기본설정 */
 body {
-    font: 16px "맑은고딕", "Gothic", sans-serif;
+    font: 16px "Apple SD Gothic Neo", "Malgun Gothic", "맑은고딕", sans-serif;
     color: var(--darkgray-color);
     overflow-x: hidden;
 }
@@ -178,14 +178,19 @@ section .uiux_wrap {
     height: 100%;
 }
 section .uiux_wrap .aquarium_img {
-    width: 550px;
+    width: 100%;
+    max-width: 550px;
+    height: auto;
 }
 section .uiux_wrap .skincare_img {
-    width: 550px;
+    width: 100%;
+    max-width: 550px;
+    height: auto;
 }
 section .uiux_con {
     text-align: left;
-    width: 450px;
+    width: 100%; 
+    max-width: 450px;
     margin: 0 auto;
     padding: 0 1rem;
     box-sizing: border-box;
