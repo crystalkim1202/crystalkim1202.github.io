@@ -23,13 +23,13 @@ a {text-decoration: none; color: inherit;}
 
 /* 기본설정 : 폰트 크기 */
 /* mobile */
-@media (max-width:599px) {
+@media (max-width:767px) {
   :root {font-size: 14px;}}
 /* tablet */
-@media (min-width:600px) and (max-width:799px) {
+@media (min-width:768x) and (max-width:1023px) {
   :root {font-size: 15px;}}
 /* desktop */
-@media (min-width:800px) {
+@media (min-width:1024px) {
   :root {font-size: 16px;}}
 
 /* 기본설정 */
@@ -53,7 +53,6 @@ ol {
 /* 모달팝업 뜨면 포트폴리오 페이지는 스크롤 되지 않게 */
 body.no-scroll {
   overflow: hidden;
-  /* padding-right: 17px; */
 }
 /* 모달레이어팝업 */
 .modal {
@@ -434,7 +433,7 @@ footer small {
 /* =========================
     TABLET AREA
 ========================= */
-@media (min-width:600px) and (max-width:999px) {
+@media (min-width:768px) and (max-width:1023px) {
     section .uiux_con {
         width: 520px;
         margin: 0 auto;
@@ -478,7 +477,7 @@ footer small {
 /* =========================
     DESKTOP AREA
 ========================= */
-@media (min-width:1000px) {
+@media (min-width:1024px) {
     .inner {
         max-width: var(--large-width);
         margin: 0 auto;
@@ -609,10 +608,12 @@ footer small {
     }
     #cardnews .description,
     #cardnews_2 .description,
-    #webzine .description,
     #newsletter .description,
     #video_travel .description {
         margin-top: -10rem;
+    }
+    #webzine .description {
+        margin-top: -5rem;
     }
 
     /* IMG (UI/UX & GAPHIC & VIDEO) */
@@ -636,22 +637,22 @@ footer small {
         width: 380px;
     }
     section .graphic_wrap .event_page_cont>img {
-        width: 550px;
+        width: 450px;
     }
     section .graphic_wrap .cardnews_cont>img {
-        width: 600px;
+        width: 450px;
     }
     section .graphic_wrap .web_banner_cont>img {
-        width: 700px;
+        width: 500px;
     }
     section .graphic_wrap .webzine_cont>img {
-        width: 650px;
+        width: 520px;
     }
     section .graphic_wrap .newsletter_cont>img {
-        width: 600px;
+        width: 450px;
     }
     section .graphic_wrap .video_cont>img {
-        width: 500px;
+        width: 430px;
     }
 
     /* GRAPHIC BACKGROUND */
