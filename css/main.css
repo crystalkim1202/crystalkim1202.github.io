@@ -602,9 +602,6 @@ footer small {
     section .graphic_wrap {
         height: 45vh;
     }
-    section .graphic_wrap .description {
-        max-width: 90%;
-    }
     .graphic_wrap>div {
         flex-wrap: nowrap;
         align-items: center;
