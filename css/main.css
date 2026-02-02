@@ -602,6 +602,9 @@ footer small {
     section .graphic_wrap {
         height: 45vh;
     }
+    section .graphic_wrap .description {
+        max-width: 90%;
+    }
     .graphic_wrap>div {
         flex-wrap: nowrap;
         align-items: center;
@@ -635,9 +638,6 @@ footer small {
     section .uiux_wrap .hgdazs_img {
         padding-top: 350px;
         width: 380px;
-    }
-    section .graphic_wrap img {
-        max-width: 500px;
     }
     section .graphic_wrap .product_page_cont>img {
         width: 380px;
