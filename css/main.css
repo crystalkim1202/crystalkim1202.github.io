@@ -192,7 +192,7 @@ section .uiux_wrap .skincare_img {
 section .uiux_con {
     text-align: left;
     width: 100%; 
-    max-width: 450px;
+    /* max-width: 450px; */
     margin: 0 auto;
     padding: 0 1rem;
     box-sizing: border-box;
