@@ -34,7 +34,7 @@ a {text-decoration: none; color: inherit;}
 
 /* 기본설정 */
 body {
-    font: 16px "Apple SD Gothic Neo", "Malgun Gothic", "고딕", sans-serif;
+    font: 16px "Apple SD Gothic Neo", "Malgun Gothic", "맑은고딕", sans-serif;
     color: var(--darkgray-color);
     overflow-x: hidden;
 }
@@ -170,6 +170,9 @@ section .btn_wrap {
 }
 section .btn {
     margin-bottom: 5px;
+}
+section .cot {
+    flex-wrap: nowrap;
 }
 
 /* UI/UX AREA */
