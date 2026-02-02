@@ -171,9 +171,6 @@ section .btn_wrap {
 section .btn {
     margin-bottom: 5px;
 }
-section .cot {
-    flex-wrap: nowrap;
-}
 
 /* UI/UX AREA */
 section .uiux_wrap {
@@ -618,6 +615,9 @@ footer small {
     #webzine .description {
         margin-top: -5rem;
     }
+    section .cont {
+        width: 100%;
+    }
 
     /* IMG (UI/UX & GAPHIC & VIDEO) */
     section .uiux_wrap .aquarium_img {
@@ -635,6 +635,9 @@ footer small {
     section .uiux_wrap .hgdazs_img {
         padding-top: 350px;
         width: 380px;
+    }
+    section .graphic_wrap img {
+        max-width: 500px;
     }
     section .graphic_wrap .product_page_cont>img {
         width: 380px;
