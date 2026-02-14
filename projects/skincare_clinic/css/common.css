@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* reset */
+* {margin: 0; padding: 0;}
+li {list-style: none;}
+a {text-decoration: none; color: inherit;}
+address {font-style: normal; font-size: 0.85rem;}
+small {font-size: 0.85rem;}
+body {
+  font: 16px "맑은고딕", gothic, sans-serif;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../images/main_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3; 
+  z-index: -1;
+}
+/* 기본설정 : 폰트 크기 */
+/* mobile */
+@media (max-width:599px) {
+  :root {
+    font-size: 14px;
+  }
+}
+/* tablet */
+@media (min-width:600px) and (max-width:799px) {
+  :root {
+    font-size: 16px;
+  }
+}
+/* desktop */
+@media (min-width:800px) {
+  :root {
+    font-size: 17px;
+  }
+}
+
+/* header Area */
+header {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+header .wrap {}
+header .wrap .logo {}
+header .wrap .logo a {
+  display: block;
+  line-height: 60px;
+}
+header .wrap .logo a img {
+  width: 60px;
+  vertical-align: bottom;
+  padding-right: 20px;
+}
+header nav {}
+header nav ul {
+  display: flex;
+  justify-content: center;
+}
+header nav ul li {}
+header nav ul li a {
+  display: block;
+  padding: 20px 20px;
+}
+/* main Area */
+main {
+  flex: 1;
+}
+
+/* footer Area */
+footer {
+  height: 13rem;
+  margin-top: 4rem;
+  padding: 2rem;
+  box-sizing: border-box;
+  text-align: center;
+  background: rgba(0,0,0, .03);
+}
+footer address {}
+footer small {
+  display: block;
+  margin-top: 1rem;
+}
+
+/* mobile */
+@media (max-width:599px) {
+}
+/* tablet */
+@media (min-width:600px) and (max-width:799px) {
+}
+/* desktop */
+@media (min-width:800px) {
+  header .wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+  }
+}
