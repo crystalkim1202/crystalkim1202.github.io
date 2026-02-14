@@ -95,6 +95,7 @@ article a.main_btn:hover {
   display: inline;
   padding: 2px 7px;
   /* font-weight: bold; */
+  letter-spacing: -0.1rem;
   color: #fff;
   background: #c2d677;
 }
