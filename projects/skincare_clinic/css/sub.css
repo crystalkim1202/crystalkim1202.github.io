@@ -57,7 +57,7 @@ article a.main_btn:hover {
   box-sizing: border-box;
   margin-bottom: 2rem;
   line-height: 1.5rem;
-  color: #909090;
+  /* color: #909090; */
   font-size: 1.05em;
   border: 1px solid #eaeaea;
   background: rgba(255,255,255, .7);
@@ -77,7 +77,7 @@ article a.main_btn:hover {
 .news_wrap p {
   /* color: #505050; */
   /* font-size: 1rem; */
-  text-decoration:underline;
+  /* text-decoration:underline; */
 }
 .p_content {
   padding: 1.5rem 0;
