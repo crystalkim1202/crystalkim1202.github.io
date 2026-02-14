@@ -64,17 +64,21 @@ article a.main_btn:hover {
 }
 .news_wrap .news_wrap_title {
   display: flex;
-  justify-content: space-between;
+  width: 100%;
+  /* justify-content: space-between; */
   padding-bottom: 1rem;
 }
 .news_wrap .news_wrap_title h3 {
+  display: flex;
   font-size: 1.35rem;
   color: #566e39;
-  max-width: 60vw;
+  padding-right: 3px;
+  /* max-width: 60vw; */
 }
 .news_wrap .news_wrap_title .date {
+  white-space: nowrap;
   color: #909090;
-  /* font-size: 0.98rem; */
+  font-size: 0.98rem;
 }
 .news_wrap p {
   /* color: #505050; */
