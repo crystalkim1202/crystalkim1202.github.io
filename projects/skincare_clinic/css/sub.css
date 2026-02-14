@@ -70,9 +70,11 @@ article a.main_btn:hover {
 .news_wrap .news_wrap_title h3 {
   font-size: 1.35rem;
   color: #566e39;
+  max-width: 60vw;
 }
 .news_wrap .news_wrap_title .date {
   color: #909090;
+  /* font-size: 0.98rem; */
 }
 .news_wrap p {
   /* color: #505050; */
@@ -151,9 +153,10 @@ article a.main_btn:hover {
 }
 .contact>.btn a {
   display: block;
-  text-align: center;
-  width: 250px;
   height: 50px;
+  width: 200px;
+  padding: 0 30px;
+  text-align: center;
   line-height: 50px;
   font-size: 1.4rem;
   border-radius: 50px;
@@ -174,6 +177,15 @@ article a.main_btn:hover {
 
 /* mobile */
 @media (max-width:599px) {
+  .contact {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .contact>.btn a {
+    width: 100%;
+    padding: 0;
+    /* max-width: none; */
+  }
 }
 /* tablet */
 @media (min-width:600px) and (max-width:799px) {
