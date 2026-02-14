@@ -65,7 +65,7 @@ article a.main_btn:hover {
 .news_wrap .news_wrap_title {
   display: flex;
   width: 100%;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   padding-bottom: 1rem;
 }
 .news_wrap .news_wrap_title h3 {
