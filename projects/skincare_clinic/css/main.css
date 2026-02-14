@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/* popup Area */
+.popup {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  width: 380px;
+  padding: 20px;
+}
+.popup .pop_title {
+  padding: 10px;
+  background: #566e39;
+  color: #fff;
+}
+.popup .pop_content {
+  padding: 10px;
+  line-height: 1.8;
+}
+.popup .pop_close {
+  float: right;
+  padding: 10px;
+  background: #566e39;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+.pop_content>h3 {
+  color: #566e39;
+}
+.pop_content>ul>li::before {
+  display: inline-block;
+  content: '';
+  width: 4px;
+  height: 4px;
+  background: #333;
+  border-radius: 4px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.pop_content>ul>li>span {
+  font-weight: bold;
+}
+
+/* article Area */
+article {
+  /* height: 100vh; */
+  padding-top: 3rem;
+  text-align: center;
+  /* outline: 1px dotted red; */
+}
+article h2 {
+  padding: 2rem 0;
+  font-size: 2rem;
+  font-weight: normal;
+  /* outline: 1px dotted red; */
+}
+article p {
+  font-size: 1.1rem;
+  color: #444;
+  /* outline: 1px dotted red; */
+}
+article .skincare_padding {
+  padding: 0 2rem;
+  line-height: 2rem;
+}
+article .skincare_padding p {
+  min-width: 400px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+article .skincare_padding img {
+  max-width: 400px;
+}
+article a.main_btn {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 15px 40px;
+  background-color: #566e39;
+  color: #fff;
+  border-radius: 5px;
+  transition: .2s;
+  /* border: 2px solid #566e39; */
+}
+article a.main_btn:hover {
+  color: #566e39;
+  background-color: #c2d677;
+  /* outline: 1px solid darkblue; */
+}
+
+
+/* mobile */
+@media (max-width:599px) {
+}
+/* tablet */
+@media (min-width:600px) and (max-width:799px) {
+}
+/* desktop */
+@media (min-width:800px) {
+}
