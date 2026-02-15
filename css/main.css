@@ -438,9 +438,11 @@ footer small {
     #contact .contact_wrap .email_portpolio {
         word-break: break-all;
     }
+    #contact .contact_wrap .email_portpolio>div {
+        letter-spacing: -0.05rem;
+    }
     #contact .contact_wrap .email_portpolio>div>p {
         font-size: 0.95rem;
-        letter-spacing: -0.05rem;
     }
 }
 
