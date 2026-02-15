@@ -4,9 +4,11 @@
   $('.bxslider').bxSlider({
     mode: 'horizontal',
     auto: true,
-    pager: true,
-    controls: true,
-    speed: 600
+    pause: 4000,
+    speed: 600,
+    pager: false,
+    controls: false,
+    startSlide: 0
     // adaptiveHeight: true,      // [핵심] 이미지 높이에 맞춰 슬라이더 높이 조절
     // adaptiveHeightSpeed: 500,  // (선택사항) 높이가 늘어나거나 줄어드는 속도 (기본값: 500)
   });
